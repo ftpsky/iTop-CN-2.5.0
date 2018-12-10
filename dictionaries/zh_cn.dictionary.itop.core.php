@@ -38,20 +38,20 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeLinkedSetIndirect+' => 'Any kind of objects [subclass] of the same class',
 
 	'Core:AttributeInteger' => '整数',
-	'Core:AttributeInteger+' => 'Numeric value (could be negative)',
+	'Core:AttributeInteger+' => '整数值(可以是负数)',
 
-	'Core:AttributeDecimal' => 'Decimal',
-	'Core:AttributeDecimal+' => 'Decimal value (could be negative)',
+	'Core:AttributeDecimal' => '十进制',
+	'Core:AttributeDecimal+' => '十进制值(可以是负数)',
 
 	'Core:AttributeBoolean' => '布尔',
-	'Core:AttributeBoolean+' => 'Boolean',
+	'Core:AttributeBoolean+' => '布尔',
 	'Core:AttributeBoolean/Value:null' => '',
 	'Core:AttributeBoolean/Value:yes' => '是',
 	'Core:AttributeBoolean/Value:no' => '否',
 
 	'Core:AttributeArchiveFlag' => '是否归档',
 	'Core:AttributeArchiveFlag/Value:yes' => '是',
-	'Core:AttributeArchiveFlag/Value:yes+' => 'This object is visible only in archive mode',
+	'Core:AttributeArchiveFlag/Value:yes+' => '该对象仅在归档模式可见',
 	'Core:AttributeArchiveFlag/Value:no' => '否',
 	'Core:AttributeArchiveFlag/Label' => '已归档',
 	'Core:AttributeArchiveFlag/Label+' => '',
@@ -63,27 +63,27 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeObsolescenceFlag/Value:yes+' => 'This object is excluded from the impact analysis, and hidden from search results',
 	'Core:AttributeObsolescenceFlag/Value:no' => '否',
 	'Core:AttributeObsolescenceFlag/Label' => '是否废弃',
-	'Core:AttributeObsolescenceFlag/Label+' => 'Computed dynamically on other attributes',
+	'Core:AttributeObsolescenceFlag/Label+' => '根据其它属性进行动态计算',
 	'Core:AttributeObsolescenceDate/Label' => '废弃时间',
-	'Core:AttributeObsolescenceDate/Label+' => 'Approximative date at which the object has been considered obsolete',
+	'Core:AttributeObsolescenceDate/Label+' => '对象被标记为废弃的大概日期',
 
 	'Core:AttributeString' => '字符串',
-	'Core:AttributeString+' => 'Alphanumeric string',
+	'Core:AttributeString+' => '字母和数字组成的字符串',
 
-	'Core:AttributeClass' => '类',
-	'Core:AttributeClass+' => 'Class',
+	'Core:AttributeClass' => '类别',
+	'Core:AttributeClass+' => '类别',
 
 	'Core:AttributeApplicationLanguage' => '用户语言',
 	'Core:AttributeApplicationLanguage+' => 'Language and country (EN US)',
 
-	'Core:AttributeFinalClass' => '类 (auto)',
+	'Core:AttributeFinalClass' => '类 (自动)',
 	'Core:AttributeFinalClass+' => 'Real class of the object (automatically created by the core)',
 
 	'Core:AttributePassword' => '密码',
-	'Core:AttributePassword+' => 'Password of an external device',
+	'Core:AttributePassword+' => '外部设备的密码',
 
  	'Core:AttributeEncryptedString' => '加密字符串',
-	'Core:AttributeEncryptedString+' => 'String encrypted with a local key',
+	'Core:AttributeEncryptedString+' => '使用本地密钥加密的字符串',
 
 	'Core:AttributeText' => '文本',
 	'Core:AttributeText+' => '多行字符串',
@@ -113,7 +113,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeTemplateHTML+' => 'HTML containing placeholders',
 
 	'Core:AttributeDateTime' => '日期/时间',
-	'Core:AttributeDateTime+' => 'Date and time (year-month-day hh:mm:ss)',
+	'Core:AttributeDateTime+' => '日期和时间 (年-月-日 时:分:秒)',
 	'Core:AttributeDateTime?SmartSearch' => '
 <p>
 	日期格式:<br/>
@@ -146,7 +146,7 @@ Operators:<br/>
 </p>',
 
 	'Core:AttributeDeadline' => '截止日期',
-	'Core:AttributeDeadline+' => 'Date, displayed relatively to the current time',
+	'Core:AttributeDeadline+' => '日期, 显示当前时间的相对值',
 
 	'Core:AttributeExternalKey' => '外键',
 	'Core:AttributeExternalKey+' => 'External (or foreign) key',
@@ -158,13 +158,13 @@ Operators:<br/>
 	'Core:AttributeExternalField+' => 'Field mapped to an external key',
 
 	'Core:AttributeURL' => 'URL',
-	'Core:AttributeURL+' => 'Absolute or relative URL as a text string',
+	'Core:AttributeURL+' => '绝对路径或相对路径的URL',
 
 	'Core:AttributeBlob' => 'Blob',
-	'Core:AttributeBlob+' => 'Any binary content (document)',
+	'Core:AttributeBlob+' => '任何二进制内容 (文档)',
 
 	'Core:AttributeOneWayPassword' => 'One way password',
-	'Core:AttributeOneWayPassword+' => 'One way encrypted (hashed) password',
+	'Core:AttributeOneWayPassword+' => '单向加密(哈希) 的密码',
 
 	'Core:AttributeTable' => 'Table',
 	'Core:AttributeTable+' => 'Indexed array having two dimensions',
@@ -176,7 +176,7 @@ Operators:<br/>
 	'Core:AttributeFriendlyName+' => 'Attribute created automatically ; the friendly name is computed after several attributes',
 
 	'Core:FriendlyName-Label' => '全称',
-	'Core:FriendlyName-Description' => 'Full name',
+	'Core:FriendlyName-Description' => '全称',
 ));
 
 
@@ -212,9 +212,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:userinfo' => '用户',
 	'Class:CMDBChangeOp/Attribute:userinfo+' => '变更的实施者',
 	'Class:CMDBChangeOp/Attribute:objclass' => '对象的类别',
-	'Class:CMDBChangeOp/Attribute:objclass+' => 'object class',
+	'Class:CMDBChangeOp/Attribute:objclass+' => '对象的类别',
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
-	'Class:CMDBChangeOp/Attribute:objkey+' => 'object id',
+	'Class:CMDBChangeOp/Attribute:objkey+' => '对象id',
 	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDBChangeOp sub-class',
 	'Class:CMDBChangeOp/Attribute:finalclass+' => 'Name of the final class',
 ));
@@ -245,7 +245,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttribute' => '对象变化',
 	'Class:CMDBChangeOpSetAttribute+' => '对象属性变化跟踪',
 	'Class:CMDBChangeOpSetAttribute/Attribute:attcode' => '属性',
-	'Class:CMDBChangeOpSetAttribute/Attribute:attcode+' => 'code of the modified property',
+	'Class:CMDBChangeOpSetAttribute/Attribute:attcode+' => '已修改属性的代码',
 ));
 
 //
@@ -256,9 +256,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeScalar' => '属性变更',
 	'Class:CMDBChangeOpSetAttributeScalar+' => 'Object scalar properties change tracking',
 	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue' => '旧值',
-	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue+' => 'previous value of the attribute',
+	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue+' => '属性的旧值',
 	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue' => '新值',
-	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue+' => 'new value of the attribute',
+	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue+' => '属性的新值',
 ));
 // Used by CMDBChangeOp... & derived classes
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
@@ -282,9 +282,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeBlob' => '数据修改',
-	'Class:CMDBChangeOpSetAttributeBlob+' => 'data change tracking',
+	'Class:CMDBChangeOpSetAttributeBlob+' => '修改日期跟踪',
 	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata' => '之前的值',
-	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata+' => 'previous contents of the attribute',
+	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata+' => '该属性之前的内容',
 ));
 
 //
@@ -294,8 +294,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeText' => '文本修改',
 	'Class:CMDBChangeOpSetAttributeText+' => '跟踪文本修改',
-	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata' => 'Previous data',
-	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata+' => 'previous contents of the attribute',
+	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata' => '之前的数据',
+	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata+' => '该属性之前的内容',
 ));
 
 //
@@ -304,13 +304,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Event' => '日志事件',
-	'Class:Event+' => 'An application internal event',
+	'Class:Event+' => '应用内部事件',
 	'Class:Event/Attribute:message' => '消息',
 	'Class:Event/Attribute:message+' => 'short description of the event',
 	'Class:Event/Attribute:date' => '日期',
-	'Class:Event/Attribute:date+' => 'date and time at which the changes have been recorded',
+	'Class:Event/Attribute:date+' => '修改记录的日期和时间',
 	'Class:Event/Attribute:userinfo' => '用户信息',
-	'Class:Event/Attribute:userinfo+' => 'identification of the user that was doing the action that triggered this event',
+	'Class:Event/Attribute:userinfo+' => '触发事件的用户身份',
 	'Class:Event/Attribute:finalclass' => 'Event sub-class',
 	'Class:Event/Attribute:finalclass+' => 'Name of the final class',
 ));
@@ -321,7 +321,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:EventNotification' => '通知事件',
-	'Class:EventNotification+' => 'Trace of a notification that has been sent',
+	'Class:EventNotification+' => '跟踪通知发送',
 	'Class:EventNotification/Attribute:trigger_id' => '触发器',
 	'Class:EventNotification/Attribute:trigger_id+' => '用户帐户',
 	'Class:EventNotification/Attribute:action_id' => '用户',
@@ -371,8 +371,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:EventIssue/Attribute:arguments_get' => 'URL arguments',
 	'Class:EventIssue/Attribute:arguments_get+' => 'HTTP GET arguments',
 	'Class:EventIssue/Attribute:callstack' => '调用栈',
-	'Class:EventIssue/Attribute:callstack+' => 'Call stack',
-	'Class:EventIssue/Attribute:data' => 'Data',
+	'Class:EventIssue/Attribute:callstack+' => '调用栈',
+	'Class:EventIssue/Attribute:data' => '数据',
 	'Class:EventIssue/Attribute:data+' => '更多信息',
 ));
 
@@ -420,7 +420,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:EventLoginUsage' => '登录频率',
-	'Class:EventLoginUsage+' => 'Connection to the application',
+	'Class:EventLoginUsage+' => '连接到本应用',
 	'Class:EventLoginUsage/Attribute:user_id' => '登录',
 	'Class:EventLoginUsage/Attribute:user_id+' => '登录',
 	'Class:EventLoginUsage/Attribute:contact_name' => '用户名',
@@ -477,17 +477,17 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ActionEmail/Attribute:reply_to' => '回复到',
 	'Class:ActionEmail/Attribute:reply_to+' => 'Will be sent into the email header',
 	'Class:ActionEmail/Attribute:to' => '收件人',
-	'Class:ActionEmail/Attribute:to+' => 'Destination of the email',
+	'Class:ActionEmail/Attribute:to+' => '邮件的目的地',
 	'Class:ActionEmail/Attribute:cc' => '抄送',
-	'Class:ActionEmail/Attribute:cc+' => 'Carbon Copy',
+	'Class:ActionEmail/Attribute:cc+' => '明文抄送',
 	'Class:ActionEmail/Attribute:bcc' => '密抄',
-	'Class:ActionEmail/Attribute:bcc+' => 'Blind Carbon Copy',
+	'Class:ActionEmail/Attribute:bcc+' => '密抄',
 	'Class:ActionEmail/Attribute:subject' => '主题',
-	'Class:ActionEmail/Attribute:subject+' => 'Title of the email',
+	'Class:ActionEmail/Attribute:subject+' => '邮件标题',
 	'Class:ActionEmail/Attribute:body' => '正文',
-	'Class:ActionEmail/Attribute:body+' => 'Contents of the email',
+	'Class:ActionEmail/Attribute:body+' => '邮件的内容',
 	'Class:ActionEmail/Attribute:importance' => '重要性',
-	'Class:ActionEmail/Attribute:importance+' => 'Importance flag',
+	'Class:ActionEmail/Attribute:importance+' => '重要性标志',
 	'Class:ActionEmail/Attribute:importance/Value:low' => '低',
 	'Class:ActionEmail/Attribute:importance/Value:low+' => '低',
 	'Class:ActionEmail/Attribute:importance/Value:normal' => '普通',
@@ -504,7 +504,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger' => '触发器',
 	'Class:Trigger+' => 'Custom event handler',
 	'Class:Trigger/Attribute:description' => '描述',
-	'Class:Trigger/Attribute:description+' => 'one line description',
+	'Class:Trigger/Attribute:description+' => '一行描述',
 	'Class:Trigger/Attribute:action_list' => '触发的行为',
 	'Class:Trigger/Attribute:action_list+' => 'Actions performed when the trigger is activated',
 	'Class:Trigger/Attribute:finalclass' => 'Trigger sub-class',
@@ -594,7 +594,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkTriggerAction' => '操作/触发器',
 	'Class:lnkTriggerAction+' => 'Link between a trigger and an action',
 	'Class:lnkTriggerAction/Attribute:action_id' => '操作',
-	'Class:lnkTriggerAction/Attribute:action_id+' => 'The action to be executed',
+	'Class:lnkTriggerAction/Attribute:action_id+' => '要执行的操作',
 	'Class:lnkTriggerAction/Attribute:action_name' => '操作',
 	'Class:lnkTriggerAction/Attribute:action_name+' => '',
 	'Class:lnkTriggerAction/Attribute:trigger_id' => '触发器',
@@ -757,7 +757,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:SynchroDataSource/Attribute:user_delete_policy/Value:nobody' => 'Nobody',
 	'Class:SynchroAttribute' => '同步属性',
 	'Class:SynchroAttribute/Attribute:sync_source_id' => '同步数据源',
-	'Class:SynchroAttribute/Attribute:attcode' => 'Attribute Code',
+	'Class:SynchroAttribute/Attribute:attcode' => '属性代码',
 	'Class:SynchroAttribute/Attribute:update' => '更新',
 	'Class:SynchroAttribute/Attribute:reconcile' => 'Reconcile',
 	'Class:SynchroAttribute/Attribute:update_policy' => '更新策略',
