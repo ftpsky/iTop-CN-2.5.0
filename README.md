@@ -15,3 +15,6 @@ mysql 5.6+ 或 mariadb 10.0+
 4、删除了中英文之外的其它语言包  
 5、默认时区改为Asia/Shanghai，更贴近中文用户  
 ```
+## 其它
+已将汉化成果贡献给了官方，https://github.com/Combodo/iTop  
+但官方版本依然存在一些小问题，仍在积极解决中，比如pdf导出乱码，日历问题  
