@@ -1284,7 +1284,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:ContactType' => '合同类型',
+	'Class:ContactType' => '联系人类型',
 	'Class:ContactType+' => '',
 ));
 
