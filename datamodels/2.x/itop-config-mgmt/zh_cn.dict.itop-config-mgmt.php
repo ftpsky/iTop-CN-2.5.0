@@ -171,7 +171,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contact/Attribute:function+' => '',
 	'Class:Contact/Attribute:cis_list' => '配置项',
 	'Class:Contact/Attribute:cis_list+' => 'All the configuration items linked to this contact',
-	'Class:Contact/Attribute:finalclass' => 'Contact sub-class',
+	'Class:Contact/Attribute:finalclass' => '联系人子类别',
 	'Class:Contact/Attribute:finalclass+' => 'Name of the final class',
 ));
 
@@ -256,7 +256,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Document/Attribute:contract_list+' => '参照该文档的合同',
 	'Class:Document/Attribute:service_list' => '服务',
 	'Class:Document/Attribute:service_list+' => '参照该文档的服务',
-	'Class:Document/Attribute:finalclass' => 'Document sub-class',
+	'Class:Document/Attribute:finalclass' => '文档子类别',
 	'Class:Document/Attribute:finalclass+' => 'Name of the final class',
 ));
 
@@ -1117,7 +1117,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Patch/Attribute:documents_list+' => '该补丁关联的所有文档',
 	'Class:Patch/Attribute:description' => '描述',
 	'Class:Patch/Attribute:description+' => '',
-	'Class:Patch/Attribute:finalclass' => 'Patch sub-class',
+	'Class:Patch/Attribute:finalclass' => '补丁子类别',
 	'Class:Patch/Attribute:finalclass+' => 'Name of the final class',
 ));
 
@@ -1179,10 +1179,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Licence/Attribute:perpetual' => '永久有效',
 	'Class:Licence/Attribute:perpetual+' => '',
 	'Class:Licence/Attribute:perpetual/Value:no' => '否',
-	'Class:Licence/Attribute:perpetual/Value:no+' => 'no',
+	'Class:Licence/Attribute:perpetual/Value:no+' => '否',
 	'Class:Licence/Attribute:perpetual/Value:yes' => '是',
-	'Class:Licence/Attribute:perpetual/Value:yes+' => 'yes',
-	'Class:Licence/Attribute:finalclass' => 'Licence sub-class',
+	'Class:Licence/Attribute:perpetual/Value:yes+' => '是',
+	'Class:Licence/Attribute:finalclass' => '许可证子类别',
 	'Class:Licence/Attribute:finalclass+' => 'Name of the final class',
 ));
 
@@ -1244,7 +1244,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Typology+' => '',
 	'Class:Typology/Attribute:name' => '名称',
 	'Class:Typology/Attribute:name+' => '',
-	'Class:Typology/Attribute:finalclass' => 'Typology sub-class',
+	'Class:Typology/Attribute:finalclass' => '拓扑子类别',
 	'Class:Typology/Attribute:finalclass+' => 'Name of the final class',
 ));
 
@@ -1550,7 +1550,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:NetworkInterface+' => '',
 	'Class:NetworkInterface/Attribute:name' => '名称',
 	'Class:NetworkInterface/Attribute:name+' => '',
-	'Class:NetworkInterface/Attribute:finalclass' => 'NetworkInterface sub-class',
+	'Class:NetworkInterface/Attribute:finalclass' => '网卡子类别',
 	'Class:NetworkInterface/Attribute:finalclass+' => 'Name of the final class',
 ));
 
