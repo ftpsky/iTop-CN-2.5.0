@@ -8,8 +8,8 @@
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	
-	'bkp-backup-running' => '备份正在进行，请稍后...',
-	'bkp-restore-running' => '还原正在进行，请稍等...',
+	'bkp-backup-running' => '备份正在进行，请稍候...',
+	'bkp-restore-running' => '还原正在进行，请稍候...',
 
 	'Menu:BackupStatus' => '定时备份',
 	'bkp-status-title' => '定时备份',
@@ -23,7 +23,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'bkp-wrong-format-spec' => '当前文件名格式错误 (%1$s). 默认格式应该是: %2$s',
 	'bkp-name-sample' => '备份文件将以数据库名、日期和时间进行命名. 例如: %1$s',
 	'bkp-week-days' => '在每个 <b> %1$s 的 %2$s</b> 进行备份',
-	'bkp-retention' => '最多 <b>%1$d 份备份文件 </b> 在目标目录.',
+	'bkp-retention' => '备份文件在目标目录里最多保存 <b>%1$d 份</b>.',
 	'bkp-next-to-delete' => '当下一次备份时将被删除 (see the setting "retention_count")',
 	'bkp-table-file' => 'File', 
 	'bkp-table-file+' => '只有扩展名是.zip的文件才被认为是备份文件',
